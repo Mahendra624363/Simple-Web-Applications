@@ -70,7 +70,7 @@ if(city.value==""){
 alert("Enter correct city");
 }
 else{
-document.getElementById('hai').innerHTML=a.value;
+document.getElementById('hai').innerHTML=city.value;
 let loc=city.value;
 url=`https://api.openweathermap.org/data/2.5/weather?q=${loc}&appid=${api}`
 
